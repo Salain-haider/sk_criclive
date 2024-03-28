@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Telegram: SKtechsports</title>
+  <link rel=icon href=https://i.postimg.cc/T1N4wvk1/skfav.png type=image/png sizes=250x250>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="//content.jwplatform.com/libraries/SAHhwvZq.js"></script>
@@ -25,7 +26,7 @@
     }
 
     // Get parameters from the URL
-    var fileUrl = getParameterByName('sktech-url');
+    var fileUrl = getParameterByName('sktech');
     var kid = getParameterByName('kid');
     var key = getParameterByName('key');
     
@@ -37,7 +38,7 @@
     var playerSetup = {
       file: fileUrl,
       position: 'bottom',
-      autostart: true,
+      autostart: false,
       stretching: "",
       width: "100%",
 	  logo:{file:"https://i.postimg.cc/mrNGTyRQ/wm-clapper.png",link:"https://t.me/sktechsports",hide:false,position:"top-left",}
